@@ -40,7 +40,7 @@ Internal IMU information<br>
 
 
 ### 2.3 Coordinates definition
-`front` means UGV heading direction, `right` means UGV right direction, `up` means straight up
+`front` means UGV heading direction, `right` means UGV right direction, `up` means straight up<br>
 Velodyne VLP16    `right-front-up`<br>
 Livox Horizon     `right-front-up`<br>
 MTI-680G          `right-front-up`<br>
