@@ -6,8 +6,8 @@ We use a SCOUT MINI chassis as the platform, the LiDAR used is a Velodyne VLP-16
 ## 2. Definement
 ### 2.1 LiDAR/IMU/GNSS/Encoder
 Two rosbags are provided,<br> 
-"2021-03-10-14-58-27.bag" (19GB, 1947s): The UGV starts from the outdoors and autonomously navigate itself in the outdoor and two rooms equipped with 5G base stations. <br>
-"2021-03-12-14-03-31.bag" (3GB, 247s): The UGV only stays indoors to gather 5G inforamtion.
+"big_test.bag" (6.97GB): The UGV only stays indoors to gather 5G inforamtion. <br>
+"in&outdoor.bag" (8.52GB): The UGV navigates itself indoor&outdoor<br>
 ```C++
 /gnss                   RTK measurements 
 /imu/data               IMU measurements
@@ -44,3 +44,6 @@ Internal IMU information<br>
 Velodyne VLP16    `right-front-up`<br>
 Livox Horizon     `right-front-up`<br>
 MTI-680G          `right-front-up`<br>
+## 3. Download Link
+For Chinese friends, you can simply use Baidu netdisk link below:<br>
+For foreign frineds, I am still working on it, as my Google Drive space is almost full.<br>
