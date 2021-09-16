@@ -6,7 +6,7 @@ We use a SCOUT MINI chassis as the platform, the LiDAR used is a Velodyne VLP-16
 ## 2. Definement
 ### 2.1 LiDAR/IMU/GNSS/Encoder
 Two rosbags are provided,<br> 
-"big_test.bag" (6.97GB): The UGV only stays indoors to gather 5G inforamtion. <br>
+"two_rooms.bag" (6.97GB): The UGV only stays indoors to gather 5G inforamtion. <br>
 "in&outdoor.bag" (8.52GB): The UGV navigates itself indoor&outdoor<br>
 ```C++
 /gnss                   RTK measurements 
@@ -46,4 +46,9 @@ Livox Horizon     `right-front-up`<br>
 MTI-680G          `right-front-up`<br>
 ## 3. Download Link
 For Chinese friends, you can simply use Baidu netdisk link below:<br>
+Two zip files are included, on is the rosbag, the other is the related 5G observation file, with `UERecode1.txt` contains the real-time 5G positionings. <br>
+中国老铁可以直接通过下面的百度云链接下载文件：<br>
+每个链接里包含两个压缩文件，其中一个是bag的压缩文件，另一个是5G观测文件的压缩文件，里面最下面有个`UERecode1.txt`文件里面是实时5G定位结果<br>
+`two_rooms`<br>
+`in&outdoor`<br>
 For foreign frineds, I am still working on it, as my Google Drive space is almost full.<br>
