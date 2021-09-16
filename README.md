@@ -50,6 +50,6 @@ Two zip files are included, on is the rosbag, the other is the related 5G observ
 中国老铁可以直接通过下面的百度云链接下载文件：<br>
 每个链接里包含两个压缩文件，其中一个是bag的压缩文件，另一个是5G观测文件的压缩文件，里面最下面有个`UERecode1.txt`文件里面是实时5G定位结果。注意一下rosbag包里面没有horizon雷达的信息，因为我百度网盘没VIP,上传不了那么大文件，而且我觉得有VLP16数据大部分人应该够了。反正有需要联系我就行。<br>
 [链接：https://pan.baidu.com/s/1ISd1z68W5yMvRMoeN9nJlg 
-提取码：1234](https://pan.baidu.com/s/1ISd1z68W5yMvRMoeN9nJlg)(br)
+提取码：1234](https://pan.baidu.com/s/1ISd1z68W5yMvRMoeN9nJlg)
 
 For foreign frineds, I am still working on it, as my Google Drive space is almost full.<br>
