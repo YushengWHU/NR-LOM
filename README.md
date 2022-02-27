@@ -26,7 +26,7 @@ The respective WGS84 coordinates: <br>
 #### a. 5G real-time positioning file format
 ![image](https://user-images.githubusercontent.com/40022787/133214714-3794f1fc-5922-4fb4-bcc9-88a18f76710e.png)<br>
 ```
-XYZ               real-time positionings 
+XY                real-time positionings (note that 5G positioning is only horizontal)
 Power             self defined power conversion, you can transform power x to dBm using 20log(x) - 83
 Dis               TDOA measurements
 zone              'in' means indoor 
@@ -46,10 +46,13 @@ Livox Horizon     `front-left-up`<br>
 MTI-680G          `front-left-up`<br>
 ## 3. Download Link
 For Chinese friends, you can simply use Baidu netdisk link below:<br>
-Two zip files are included, on is the rosbag, the other is the related 5G observation file, with `UERecode1.txt` contains the real-time 5G positionings. Please notice the Horizon Lidar info is not included due to limited VIP authority. <br>
+Two zip files are included, on is the rosbag, the other is the related 5G observation file, with `UERecode1.txt` contains the real-time 5G positionings. Please notice the Horizon Lidar info is not included due to limited space. <br>
+"in&outdoor":https://drive.google.com/drive/folders/1-l7dI9flZtysg_ne0WA--3mqcl6wRYtt?usp=sharing <br>
+"two_rooms":https://drive.google.com/drive/folders/1ka9koeht7yenMQnqKkcX85rNjD4m6D2G?usp=sharing  <br> <br> <br> <br>
+-----------------------------------------------------For Chinese Friends------------------------------------------------<br>
 中国老铁可以直接通过下面的百度云链接下载文件：<br>
-每个链接里包含两个压缩文件，其中一个是bag的压缩文件，另一个是5G观测文件的压缩文件，里面最下面有个`UERecode1.txt`文件里面是实时5G定位结果。注意一下rosbag包里面没有horizon雷达的信息，因为我百度网盘没VIP,上传不了那么大文件，而且我觉得有VLP16数据大部分人应该够了。反正有需要联系我就行。<br>
-[链接：https://pan.baidu.com/s/1ISd1z68W5yMvRMoeN9nJlg 
-提取码：1234](https://pan.baidu.com/s/1ISd1z68W5yMvRMoeN9nJlg)
+每个链接里包含两个压缩文件，其中一个是bag的压缩文件，另一个是5G观测文件的压缩文件，里面最下面有个`UERecode1.txt`文件里面是实时5G定位结果。注意一下rosbag包里面没有horizon雷达的信息，我觉得有VLP16数据大部分人应该够了，反正有需要联系我就行。<br>
+[链接：https://pan.baidu.com/s/1wNQErXlbF_AnLePHMx4vGg  
+提取码：1234](https://pan.baidu.com/s/1wNQErXlbF_AnLePHMx4vGg )
 
-For foreign frineds, I am still working on it, as my Google Drive space is almost full.<br>
+
