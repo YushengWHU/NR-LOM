@@ -42,8 +42,8 @@ Internal IMU information<br>
 ### 2.3 Coordinates definition
 `front` means UGV heading direction, `right` means UGV right direction, `up` means straight up<br>
 Velodyne VLP16    `right-front-up`<br>
-Livox Horizon     `right-front-up`<br>
-MTI-680G          `right-front-up`<br>
+Livox Horizon     `front-left-up`<br>
+MTI-680G          `front-left-up`<br>
 ## 3. Download Link
 For Chinese friends, you can simply use Baidu netdisk link below:<br>
 Two zip files are included, on is the rosbag, the other is the related 5G observation file, with `UERecode1.txt` contains the real-time 5G positionings. Please notice the Horizon Lidar info is not included due to limited VIP authority. <br>
